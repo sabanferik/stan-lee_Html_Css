@@ -1,32 +1,36 @@
-*{
-    /* border:1px solid red; */
-    margin: 0;
-    padding:0
-}
+/* *{
+    border: 1px solid red;
+} */
+/* * li ve suslu ile kullanimla bütün sayfanin hertarafinda borderlere görebiliriz */
+
 body{
     background-color: black;
-    color:white;
-   
-}
+    color: white;
 
+}
 .container{
     width: 80%;
-    background-color:#272626;
+    background-color: #272626;
     margin: auto;
-    border-radius:20px;
+    border-radius: 20px;
+
 }
+
 .heading{
     font-family: 'Lobster', sans-serif;
 }
+
 .title{
     text-align: center;
     font-size: 60px;
 }
 span{
-    color:red;
+    color: red;
 }
 
-
+.imgContainer{
+    text-align: center;
+}
 
 img{
     border-radius: 40px;
@@ -37,7 +41,7 @@ img{
     width: 80%;
     margin: auto;
     text-align: justify;
-    font-size: 18px;
+    font-size: 18 px;
 }
 
 .marvel{
@@ -46,36 +50,37 @@ img{
     margin:10px 0 10px 10%;
 }
 
-.comics ul{
-  width: 80%;
+ul{
+    width: 80%;
+    margin: auto;
 
-  margin:auto;
-  font-size: 18px;
 }
 
 .comics ul li{
     margin-bottom: 10px;
-    /* list-style-type: none; */
+    /* list-style-type:none; */
     list-style-position: inside;
+
 }
 
 footer{
     text-align: center;
-    font-size:20px;
-    padding:20px;
+    font-size: 20px;
+    padding: 20px;
 }
 
 .link{
-    color:white;
+    color: white;
     text-decoration: none;
     background-color: black;
+    padding: 16 px;
     margin-left: 10px;
-    padding:16px;
-    border-radius:10px;
-    border:2px solid darkorange;
+    border-radius: 10px;
+    border: 2px solid darkorange;
+
 }
 
 .link:hover{
     background-color: #272626;
-    color:red;
+    color: red;
 }
